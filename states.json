@@ -1,0 +1,15 @@
+{
+    "AK": {
+        "url": "https://alaska-coronavirus-vaccine-outreach-alaska-dhss.hub.arcgis.com",
+        "casesSelector": "#ember87 .ss-value",
+        "hospitalizationsSelector": "#ember84 .ss-value",
+        "deathsSelector": "#ember90 .ss-value"
+    },
+    "CA": {
+        "url": "https://covid19.ca.gov/state-dashboard/",
+        "testsSelector": "cagov-chart-dashboard-total-tests.chart[data-chart-config-key='tests'] .chart-header .big-num",
+        "casesSelector": "cagov-chart-dashboard-total-tests.chart[data-chart-config-key='cases'] .chart-header .big-num",
+        "hospitalizationsSelector": "cagov-chart-dashboard-total-tests.chart[data-chart-config-key='patients'] .chart-header .big-num",
+        "deathsSelector": "cagov-chart-dashboard-total-tests.chart[data-chart-config-key='deaths'] .chart-header .big-num"
+    }
+}
