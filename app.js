@@ -8,10 +8,6 @@ async function getNumbers() {
     const browser = await puppeteer.launch();
     const objKeys = Object.keys(states);
 
-    Promise.all(
-
-    );
-
     for (let index = 0; index < objKeys.length; index++) {
       const page = await browser.newPage();
 
